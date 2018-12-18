@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="java-string-similarity-1.0.1-javadoc">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/libs/java-string-similarity-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
