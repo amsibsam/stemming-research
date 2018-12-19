@@ -1,3 +1,7 @@
+import info.debatty.java.stringsimilarity.Levenshtein;
+import info.debatty.java.stringsimilarity.NGram;
+import info.debatty.java.stringsimilarity.QGram;
+
 import java.io.IOException;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -8,7 +12,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         try {
-
+            System.out.println("----------- original stemming NA --------------------");
             StemmingNaziefAndriani stemmingNaziefAndriani = new StemmingNaziefAndriani();
             System.out.println("kemarin "+stemmingNaziefAndriani.KataDasar("nyeberang"));
 
@@ -17,35 +21,18 @@ public class Main {
         }
 
 
+//        System.out.println("----------- non-formal affix stemming NA --------------------");
         double startTime = System.currentTimeMillis();
-        System.out.println(SastrawiWrapper.getInstance().getLemmatizer().lemmatize("nyeberang"));
+        System.out.println(SastrawiWrapper.getInstance().getLemmatizer().lemmatize("temen"));
         System.out.println(SastrawiWrapper.getInstance().getNonformalDetector().isNonFormal("temenan"));
         double endTime = System.currentTimeMillis();
         System.out.println("code duration: " + ((endTime - startTime)/1000));
 
+        Levenshtein levenshtein = new Levenshtein();
+        System.out.println("distance " + levenshtein.distance("temen", "teman"));
 
-        int[] rank = {83, 86, 87};
-
-
-        int[] sortedRank = rank;
-        Arrays.sort(sortedRank);
-
-        List<Integer> positiveDiff = new ArrayList();
-
-        for (int i = sortedRank.length - 1; i > 0; i--) {
-            if (sortedRank[i] - sortedRank[(i - (sortedRank.length - 1)) + 1] > 0) {
-                positiveDiff.add(sortedRank[i] - sortedRank[(i - (sortedRank.length - 1)) + 1]);
-            }
-        }
-
-        for (int diff: positiveDiff) {
-            System.out.println("diff "+diff);
-        }
-
-        int value = 5 | 1;
-        System.out.println(value);
-
-        HashMap<String, Integer> a = new HashMap<>();
-
+        NGram nGram = new NGram(2);
+        System.out.println("ngram " + nGram.distance("crita", "cerita"));
+        System.out.println("ngram " + nGram.distance("crita", "cita"));
     }
 }

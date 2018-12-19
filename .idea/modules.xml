@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jsastrawi_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jsastrawi_main.iml" group="jsastrawi" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jsastrawi_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jsastrawi_test.iml" group="jsastrawi" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/stemming.iml" filepath="$PROJECT_DIR$/.idea/modules/stemming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jsastrawi-nonformal/stemming.jsastrawi-nonformal.iml" filepath="$PROJECT_DIR$/.idea/modules/jsastrawi-nonformal/stemming.jsastrawi-nonformal.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/stemming.main.iml" filepath="$PROJECT_DIR$/.idea/modules/stemming.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/stemming.test.iml" filepath="$PROJECT_DIR$/.idea/modules/stemming.test.iml" />
     </modules>
