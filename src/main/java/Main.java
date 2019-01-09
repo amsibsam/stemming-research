@@ -14,7 +14,7 @@ public class Main {
         try {
             System.out.println("----------- original stemming NA --------------------");
             StemmingNaziefAndriani stemmingNaziefAndriani = new StemmingNaziefAndriani();
-            System.out.println("kemarin "+stemmingNaziefAndriani.KataDasar("nyeberang"));
+            System.out.println("kemarin "+stemmingNaziefAndriani.KataDasar("mukulin"));
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -23,7 +23,7 @@ public class Main {
 
 //        System.out.println("----------- non-formal affix stemming NA --------------------");
         double startTime = System.currentTimeMillis();
-        System.out.println(SastrawiWrapper.getInstance().getLemmatizer().lemmatize("temen"));
+        System.out.println(SastrawiWrapper.getInstance().getLemmatizer().lemmatize("critain"));
         System.out.println(SastrawiWrapper.getInstance().getNonformalDetector().isNonFormal("temenan"));
         double endTime = System.currentTimeMillis();
         System.out.println("code duration: " + ((endTime - startTime)/1000));
