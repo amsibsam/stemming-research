@@ -34,7 +34,6 @@ public class SastrawiWrapper {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        lemmatizer = new DefaultLemmatizer(dictionary);
         tokenizer = new HeuristicTokenizer();
         nonformalDetector = new NonformalDetectorImp();
     }
@@ -51,6 +50,7 @@ public class SastrawiWrapper {
         return this.tokenizer;
     }
     public Lemmatizer getLemmatizer() {
+        lemmatizer = new DefaultLemmatizer(dictionary);
         return this.lemmatizer;
     }
 }
