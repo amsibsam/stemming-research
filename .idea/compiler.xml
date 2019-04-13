@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="com.andylibrian.jsastrawi-nonformal.main" target="1.7" />
+      <module name="com.andylibrian.jsastrawi-nonformal.test" target="1.7" />
       <module name="jsastrawi-nonformal_main" target="1.7" />
       <module name="jsastrawi-nonformal_test" target="1.7" />
       <module name="jsastrawi_main" target="1.7" />

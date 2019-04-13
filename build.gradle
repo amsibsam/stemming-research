@@ -13,5 +13,4 @@ dependencies {
 //    compile (project(':jsastrawi'))
     compile files('libs/java-string-similarity-1.0.1-javadoc.jar')
     compile files('libs/java-string-similarity-1.0.1.jar')
-    project(':jsastrawi-nonformal')
 }
