@@ -2,7 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a269b17-7b40-40d9-bb85-578ab9d72a5c" name="Default" comment="">
-      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/Context.class" afterPath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/Context.class" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/cli/LemmatizeCmd.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/cli/Main.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/cli/output/BufferedOutput.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/cli/output/Output.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/cli/output/SystemOutput.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/DefaultLemmatizer.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/Lemmatizer.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/Context.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/Removal.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/RemovalImpl.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/confixstripping/PrecedenceAdjustmentSpec.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/AbstractDisambiguatePrefixRule.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/ContextVisitor.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/Disambiguator.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/PrefixDisambiguator.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/RemoveDerivationalSuffix.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/RemoveInflectionalParticle.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/RemoveInflectionalParticleNonFormal.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/RemoveInflectionalPossessivePronoun.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/RemovePlainPrefix.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/RemovePlainPrefixNonFormal.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/VisitorProvider.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule10.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule11.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule12.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule13a.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule13b.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule14.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule15a.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule15b.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule15c.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule15d.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule15e.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule15f.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule15g.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule16.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule17a.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule17b.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule17c.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule17d.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule18a.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule18b.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule19.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule1a.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule1b.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule1c.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule20.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule21a.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule21b.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule23.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule24.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule25.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule26a.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule26b.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule27.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule28a.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule28b.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule29.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule2a.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule2b.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule3.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule30a.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule30b.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule31a.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule31b.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule32.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule34.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule35.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule36.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule37a.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule37b.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule38a.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule38b.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule39a.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule39b.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule4.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule40a.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule40b.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule41.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule42.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule5.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule6a.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule6b.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule7.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule8.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule9.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/specification/Specification.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/tokenization/HeuristicTokenizer.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/tokenization/Tokenizer.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/tokenization/analyzer/Alphanumeric.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/tokenization/analyzer/Analysis.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/tokenization/analyzer/Analyzer.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/tokenization/analyzer/Hyphen.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/tokenization/analyzer/Model.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/tokenization/analyzer/Punctuation.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/tokenization/analyzer/Whitespace.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/trka/validator/AbbreviationValidator.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/trka/validator/EmailAddressValidator.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/trka/validator/HostnameValidator.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/trka/validator/NumberValidator.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/trka/validator/UrlValidator.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/trka/validator/Validator.class" afterPath="" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/util/StringUtil.class" afterPath="" />
       <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/resources/root-words.txt" afterPath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/resources/root-words.txt" />
       <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/src/main/resources/root-words.txt" afterPath="$USER_HOME$/Android/jsastrawi-nonformal/src/main/resources/root-words.txt" />
       <change beforePath="$USER_HOME$/Android/jsastrawi/src/main/resources/root-words.txt" afterPath="$USER_HOME$/Android/jsastrawi/src/main/resources/root-words.txt" />
@@ -72,7 +174,7 @@
       <file leaf-file-name="root-words.txt" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/resources/root-words.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253125">
+            <state relative-caret-position="660">
               <caret line="16875" column="7" lean-forward="false" selection-start-line="16875" selection-start-column="7" selection-end-line="16875" selection-end-column="7" />
               <folding />
             </state>
@@ -82,19 +184,20 @@
       <file leaf-file-name="root-words.txt" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Android/jsastrawi/src/main/resources/root-words.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253125">
+            <state relative-caret-position="660">
               <caret line="16875" column="7" lean-forward="false" selection-start-line="16875" selection-start-column="7" selection-end-line="16875" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SastrawiWrapper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SastrawiWrapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SastrawiWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+            <state relative-caret-position="225">
+              <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#642#650#0" expanded="true" />
                 <element signature="e#752#753#0" expanded="true" />
                 <element signature="e#783#784#0" expanded="true" />
@@ -117,13 +220,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Context.java" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/Context.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2550">
-              <caret line="193" column="47" lean-forward="false" selection-start-line="193" selection-start-column="47" selection-end-line="193" selection-end-column="47" />
+            <state relative-caret-position="120">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#3558#3559#0" expanded="true" />
                 <element signature="e#3593#3594#0" expanded="true" />
                 <element signature="e#3779#3780#0" expanded="true" />
@@ -225,7 +327,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Android/jsastrawi" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Android/jsastrawi-nonformal" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -1300,8 +1402,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="stemming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stemming" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="stemming-research" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsastrawi-nonformal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1457,6 +1559,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1480,7 +1583,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259053" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1836,12 +1938,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/Context.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="193" column="47" lean-forward="false" selection-start-line="193" selection-start-column="47" selection-end-line="193" selection-end-column="47" />
+        <state relative-caret-position="8955">
+          <caret line="601" column="49" lean-forward="false" selection-start-line="601" selection-start-column="49" selection-end-line="601" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/resources/root-words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="16875" column="7" lean-forward="false" selection-start-line="16875" selection-start-column="7" selection-end-line="16875" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/jsastrawi/src/main/resources/root-words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="16875" column="7" lean-forward="false" selection-start-line="16875" selection-start-column="7" selection-end-line="16875" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SastrawiWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#642#650#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#1508#1509#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
             <element signature="e#3558#3559#0" expanded="true" />
             <element signature="e#3593#3594#0" expanded="true" />
             <element signature="e#3779#3780#0" expanded="true" />
@@ -1860,52 +2008,6 @@
             <element signature="e#9623#9624#0" expanded="true" />
             <element signature="e#10468#10469#0" expanded="true" />
             <element signature="e#10501#10502#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/resources/root-words.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253125">
-          <caret line="16875" column="7" lean-forward="false" selection-start-line="16875" selection-start-column="7" selection-end-line="16875" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Android/jsastrawi/src/main/resources/root-words.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253125">
-          <caret line="16875" column="7" lean-forward="false" selection-start-line="16875" selection-start-column="7" selection-end-line="16875" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8955">
-          <caret line="601" column="49" lean-forward="false" selection-start-line="601" selection-start-column="49" selection-end-line="601" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SastrawiWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
-          <folding>
-            <element signature="e#642#650#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#1508#1509#0" expanded="true" />
-            <element signature="e#1545#1546#0" expanded="true" />
           </folding>
         </state>
       </provider>
