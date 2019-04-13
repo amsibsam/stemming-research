@@ -2,6 +2,7 @@ import info.debatty.java.stringsimilarity.Levenshtein;
 import info.debatty.java.stringsimilarity.NGram;
 
 import java.io.IOException;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -611,5 +612,15 @@ public class Main {
 //        NGram nGram = new NGram(2);
 //        System.out.println("ngram " + nGram.distance("crita", "cerita"));
 //        System.out.println("ngram " + nGram.distance("crita", "cita"));
+
+        boolean isContinue = true;
+        while (isContinue) {
+            System.out.println("Masukkan kata untuk dicari kata dasarnya");
+            System.out.printf("input kata: ");
+            Scanner in = new Scanner(System.in);
+            String kata = in.nextLine();
+            System.out.println("kata dasarnya adalah: " + SastrawiWrapper.getInstance().getLemmatizer().lemmatize(kata));
+
+        }
     }
 }
