@@ -4,6 +4,7 @@
     <list default="true" id="5a269b17-7b40-40d9-bb85-578ab9d72a5c" name="Default" comment="">
       <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/Context.class" afterPath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/classes/jsastrawi/morphology/defaultimpl/Context.class" />
       <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/resources/root-words.txt" afterPath="$USER_HOME$/Android/jsastrawi-nonformal/out/production/resources/root-words.txt" />
+      <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/Context.java" afterPath="$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/Context.java" />
       <change beforePath="$USER_HOME$/Android/jsastrawi-nonformal/src/main/resources/root-words.txt" afterPath="$USER_HOME$/Android/jsastrawi-nonformal/src/main/resources/root-words.txt" />
       <change beforePath="$USER_HOME$/Android/jsastrawi/src/main/resources/root-words.txt" afterPath="$USER_HOME$/Android/jsastrawi/src/main/resources/root-words.txt" />
     </list>
@@ -52,8 +53,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="601" column="49" lean-forward="false" selection-start-line="601" selection-start-column="49" selection-end-line="601" selection-end-column="49" />
+            <state relative-caret-position="2700">
+              <caret line="186" column="96" lean-forward="false" selection-start-line="186" selection-start-column="96" selection-end-line="186" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -69,31 +70,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="usernames.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/usernames.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="9995" column="5" lean-forward="true" selection-start-line="9995" selection-start-column="5" selection-end-line="9995" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="root-words.txt" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/resources/root-words.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253125">
-              <caret line="16875" column="7" lean-forward="false" selection-start-line="16875" selection-start-column="7" selection-end-line="16875" selection-end-column="7" />
+            <state relative-caret-position="284055">
+              <caret line="18937" column="3" lean-forward="false" selection-start-line="18937" selection-start-column="3" selection-end-line="18937" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="root-words.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Android/jsastrawi/src/main/resources/root-words.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253125">
-              <caret line="16875" column="7" lean-forward="false" selection-start-line="16875" selection-start-column="7" selection-end-line="16875" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SastrawiWrapper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SastrawiWrapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SastrawiWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#752#753#0" expanded="true" />
@@ -105,8 +106,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/test/java/jsastrawi/cli/MainTest.java">
+      <file leaf-file-name="LemmatizeCmd.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsastrawi-nonformal/src/main/java/jsastrawi/cli/LemmatizeCmd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="915">
+              <caret line="113" column="41" lean-forward="false" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/Context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2370">
+              <caret line="181" column="44" lean-forward="false" selection-start-line="181" selection-start-column="44" selection-end-line="181" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3699#3700#0" expanded="true" />
+                <element signature="e#3734#3735#0" expanded="true" />
+                <element signature="e#3920#3921#0" expanded="true" />
+                <element signature="e#3966#3967#0" expanded="true" />
+                <element signature="e#4118#4119#0" expanded="true" />
+                <element signature="e#4152#4153#0" expanded="true" />
+                <element signature="e#4291#4292#0" expanded="true" />
+                <element signature="e#4322#4323#0" expanded="true" />
+                <element signature="e#4431#4432#0" expanded="true" />
+                <element signature="e#4462#4463#0" expanded="true" />
+                <element signature="e#4602#4603#0" expanded="true" />
+                <element signature="e#4631#4632#0" expanded="true" />
+                <element signature="e#9850#9851#0" expanded="true" />
+                <element signature="e#9885#9886#0" expanded="true" />
+                <element signature="e#9922#9923#0" expanded="true" />
+                <element signature="e#9968#9969#0" expanded="true" />
+                <element signature="e#10813#10814#0" expanded="true" />
+                <element signature="e#10846#10847#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Android/jsastrawi/src/main/java/jsastrawi/morphology/defaultimpl/Context.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -118,62 +159,22 @@
         </entry>
       </file>
       <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/Context.java">
+        <entry file="file://$PROJECT_DIR$/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/Context.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2550">
-              <caret line="193" column="47" lean-forward="false" selection-start-line="193" selection-start-column="47" selection-end-line="193" selection-end-column="47" />
+            <state relative-caret-position="2025">
+              <caret line="181" column="44" lean-forward="false" selection-start-line="181" selection-start-column="44" selection-end-line="181" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3558#3559#0" expanded="true" />
-                <element signature="e#3593#3594#0" expanded="true" />
-                <element signature="e#3779#3780#0" expanded="true" />
-                <element signature="e#3825#3826#0" expanded="true" />
-                <element signature="e#3977#3978#0" expanded="true" />
-                <element signature="e#4011#4012#0" expanded="true" />
-                <element signature="e#4150#4151#0" expanded="true" />
-                <element signature="e#4181#4182#0" expanded="true" />
-                <element signature="e#4290#4291#0" expanded="true" />
-                <element signature="e#4321#4322#0" expanded="true" />
-                <element signature="e#4461#4462#0" expanded="true" />
-                <element signature="e#4490#4491#0" expanded="true" />
-                <element signature="e#9505#9506#0" expanded="true" />
-                <element signature="e#9540#9541#0" expanded="true" />
-                <element signature="e#9577#9578#0" expanded="true" />
-                <element signature="e#9623#9624#0" expanded="true" />
-                <element signature="e#10468#10469#0" expanded="true" />
-                <element signature="e#10501#10502#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/util/StringUtil.java">
+      <file leaf-file-name="NonformalDetectorImp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NonformalDetectorImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/cli/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="210">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="24" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -191,10 +192,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mingat</find>
-      <find>setelah</find>
-      <find>si</find>
-      <find>ke</find>
       <find>tindak</find>
       <find>fa</find>
       <find>loopPengembalianAkhiran</find>
@@ -205,7 +202,6 @@
       <find>di</find>
       <find>startSimi</find>
       <find>temenan</find>
-      <find>true</find>
       <find>doyan</find>
       <find>ketemuan</find>
       <find>ketemu</find>
@@ -221,11 +217,16 @@
       <find>orang</find>
       <find>bang</find>
       <find>mandrin</find>
+      <find>nanyain</find>
+      <find>tadi</find>
+      <find>true</find>
+      <find>bukber</find>
+      <find>nonton</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Android/jsastrawi" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Android/jsastrawi-nonformal" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -930,8 +931,8 @@
         <entry key="$USER_HOME$/Android/jsastrawi-nonformal" value="1545323714000" />
         <entry key="$USER_HOME$/Android/jsastrawi-nonformal/build.gradle" value="2514562588" />
         <entry key="$USER_HOME$/Android/jsastrawi/build.gradle" value="2514562588" />
-        <entry key="$PROJECT_DIR$" value="6171876196000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1550166607" />
+        <entry key="$PROJECT_DIR$" value="6174387481000" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="735715881" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="975608090" />
         <entry key="$PROJECT_DIR$/jsastrawi-nonformal/build.gradle" value="2514562588" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="153161229" />
@@ -1246,7 +1247,6 @@
         <option value="$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/confixstripping/PrecedenceAdjustmentSpec.java" />
         <option value="$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/visitor/RemovePlainPrefix.java" />
         <option value="$USER_HOME$/Android/jsastrawi/src/main/java/jsastrawi/cli/output/BufferedOutput.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NonformalDetectorImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/StemmingNaziefAndriani.java" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/similarity/SimilarityWrapper.java" />
@@ -1262,11 +1262,14 @@
         <option value="$PROJECT_DIR$/src/main/java/SastrawiWrapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/Constant.java" />
         <option value="$USER_HOME$/Android/jsastrawi-nonformal/src/main/resources/frequently-used.txt" />
-        <option value="$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/Context.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$USER_HOME$/Android/jsastrawi-nonformal/src/main/resources/root-words.txt" />
         <option value="$USER_HOME$/Android/jsastrawi/src/main/resources/root-words.txt" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/NonformalDetectorImp.java" />
+        <option value="$USER_HOME$/Android/jsastrawi-nonformal/src/main/resources/root-words.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/tweets.txt" />
+        <option value="$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/Context.java" />
+        <option value="$PROJECT_DIR$/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
   </component>
@@ -1292,7 +1295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1300,13 +1302,32 @@
               <item name="stemming" type="b2602c69:ProjectViewProjectNode" />
               <item name="stemming" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="stemming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stemming" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stemming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stemming" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="stemming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stemming" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1318,6 +1339,9 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="jsastrawi.morphology.defaultimpl.visitor.prefixrules" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1452,11 +1476,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="23" width="1400" height="790" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1467,8 +1489,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34428573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259053" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34428573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1480,6 +1501,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259053" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1493,19 +1516,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/Context.java</url>
-          <line>248</line>
+          <line>260</line>
           <properties />
           <option name="timeStamp" value="213" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/Context.java</url>
-          <line>254</line>
+          <line>266</line>
           <properties />
           <option name="timeStamp" value="214" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/Context.java</url>
-          <line>198</line>
+          <line>210</line>
           <properties />
           <option name="timeStamp" value="238" />
         </line-breakpoint>
@@ -1518,48 +1541,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule19.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule20.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule42.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule41.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule40b.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule40a.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/visitor/prefixrules/PrefixRule38b.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1774,11 +1755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <marker date="1515312771073" expanded="false" signature="3:117" ph="/.../" />
-            <marker date="1515312771073" expanded="true" signature="326:349" ph="{}" />
-            <marker date="1515312771073" expanded="true" signature="426:449" ph="{}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1786,7 +1762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1801,11 +1776,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Constant.java" />
+    <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/test/java/jsastrawi/cli/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/cli/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/jsastrawi/src/main/resources/root-words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253125">
+          <caret line="16875" column="7" lean-forward="false" selection-start-line="16875" selection-start-column="7" selection-end-line="16875" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/Lemmatizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NonformalDetectorImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="24" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/jsastrawi/src/main/java/jsastrawi/morphology/defaultimpl/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SastrawiWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#1508#1509#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsastrawi-nonformal/src/main/java/jsastrawi/cli/LemmatizeCmd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="113" column="41" lean-forward="false" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/resources/frequently-used.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6075">
@@ -1814,105 +1871,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/test/java/jsastrawi/cli/MainTest.java">
+    <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/resources/root-words.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/cli/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/util/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        <state relative-caret-position="284055">
+          <caret line="18937" column="3" lean-forward="false" selection-start-line="18937" selection-start-column="3" selection-end-line="18937" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/Context.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="193" column="47" lean-forward="false" selection-start-line="193" selection-start-column="47" selection-end-line="193" selection-end-column="47" />
+        <state relative-caret-position="2370">
+          <caret line="181" column="44" lean-forward="false" selection-start-line="181" selection-start-column="44" selection-end-line="181" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3558#3559#0" expanded="true" />
-            <element signature="e#3593#3594#0" expanded="true" />
-            <element signature="e#3779#3780#0" expanded="true" />
-            <element signature="e#3825#3826#0" expanded="true" />
-            <element signature="e#3977#3978#0" expanded="true" />
-            <element signature="e#4011#4012#0" expanded="true" />
-            <element signature="e#4150#4151#0" expanded="true" />
-            <element signature="e#4181#4182#0" expanded="true" />
-            <element signature="e#4290#4291#0" expanded="true" />
-            <element signature="e#4321#4322#0" expanded="true" />
-            <element signature="e#4461#4462#0" expanded="true" />
-            <element signature="e#4490#4491#0" expanded="true" />
-            <element signature="e#9505#9506#0" expanded="true" />
-            <element signature="e#9540#9541#0" expanded="true" />
-            <element signature="e#9577#9578#0" expanded="true" />
-            <element signature="e#9623#9624#0" expanded="true" />
-            <element signature="e#10468#10469#0" expanded="true" />
-            <element signature="e#10501#10502#0" expanded="true" />
+            <element signature="e#3699#3700#0" expanded="true" />
+            <element signature="e#3734#3735#0" expanded="true" />
+            <element signature="e#3920#3921#0" expanded="true" />
+            <element signature="e#3966#3967#0" expanded="true" />
+            <element signature="e#4118#4119#0" expanded="true" />
+            <element signature="e#4152#4153#0" expanded="true" />
+            <element signature="e#4291#4292#0" expanded="true" />
+            <element signature="e#4322#4323#0" expanded="true" />
+            <element signature="e#4431#4432#0" expanded="true" />
+            <element signature="e#4462#4463#0" expanded="true" />
+            <element signature="e#4602#4603#0" expanded="true" />
+            <element signature="e#4631#4632#0" expanded="true" />
+            <element signature="e#9850#9851#0" expanded="true" />
+            <element signature="e#9885#9886#0" expanded="true" />
+            <element signature="e#9922#9923#0" expanded="true" />
+            <element signature="e#9968#9969#0" expanded="true" />
+            <element signature="e#10813#10814#0" expanded="true" />
+            <element signature="e#10846#10847#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Android/jsastrawi-nonformal/src/main/resources/root-words.txt">
+    <entry file="file://$PROJECT_DIR$/jsastrawi-nonformal/src/main/java/jsastrawi/morphology/defaultimpl/Context.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253125">
-          <caret line="16875" column="7" lean-forward="false" selection-start-line="16875" selection-start-column="7" selection-end-line="16875" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Android/jsastrawi/src/main/resources/root-words.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253125">
-          <caret line="16875" column="7" lean-forward="false" selection-start-line="16875" selection-start-column="7" selection-end-line="16875" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="2025">
+          <caret line="181" column="44" lean-forward="false" selection-start-line="181" selection-start-column="44" selection-end-line="181" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="601" column="49" lean-forward="false" selection-start-line="601" selection-start-column="49" selection-end-line="601" selection-end-column="49" />
+        <state relative-caret-position="2700">
+          <caret line="186" column="96" lean-forward="false" selection-start-line="186" selection-start-column="96" selection-end-line="186" selection-end-column="96" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/usernames.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="240">
+          <caret line="9995" column="5" lean-forward="true" selection-start-line="9995" selection-start-column="5" selection-end-line="9995" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SastrawiWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#1508#1509#0" expanded="true" />
-            <element signature="e#1545#1546#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

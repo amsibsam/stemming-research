@@ -41,7 +41,13 @@ import jsastrawi.morphology.defaultimpl.visitor.VisitorProvider;
  * Encapsulated context in lemmatizing a word
  */
 public class Context {
+    public enum wordType {
+        unknown,
+        formal,
+        nonformal
+    }
 
+    public static wordType isFormal = wordType.unknown;
     private final String originalWord;
     private String currentWord;
     private final Set<String> dictionary;
@@ -146,28 +152,34 @@ public class Context {
      */
     public void execute() {
         // step 1 - 5
+
         startStemmingProcess();
 
         // step 6
         if (dictionary.contains(currentWord)) {
             result = currentWord;
+            isFormal = wordType.formal;
         } else {
             if (trialCount == 1) {
                 visitorProvider.addNonFormalVisitors();
                 startStemmingProcess();
                 if (dictionary.contains(currentWord)) {
                     result = currentWord;
+                    isFormal = wordType.nonformal;
                 } else {
                     startSimilarityProcess();
                     if (dictionary.contains(currentWord)) {
                         result = currentWord;
+                        isFormal = wordType.nonformal;
                         return;
                     } else {
                         result = originalWord;
+                        isFormal = wordType.unknown;
                     }
                 }
             } else {
                 result = originalWord;
+                isFormal = wordType.unknown;
             }
             trialCount++;
         }

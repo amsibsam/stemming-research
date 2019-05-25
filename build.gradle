@@ -10,7 +10,7 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-//    compile (project(':jsastrawi'))
+    compile (project(':jsastrawi-nonformal'))
     compile files('libs/java-string-similarity-1.0.1-javadoc.jar')
     compile files('libs/java-string-similarity-1.0.1.jar')
 }
